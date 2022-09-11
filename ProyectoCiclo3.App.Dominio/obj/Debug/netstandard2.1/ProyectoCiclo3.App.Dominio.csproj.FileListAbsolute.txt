@@ -1,0 +1,9 @@
+C:\Users\usuario\Desktop\ProyectoCiclo3.App\ProyectoCiclo3.App.Dominio\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Dominio.deps.json
+C:\Users\usuario\Desktop\ProyectoCiclo3.App\ProyectoCiclo3.App.Dominio\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Dominio.dll
+C:\Users\usuario\Desktop\ProyectoCiclo3.App\ProyectoCiclo3.App.Dominio\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Dominio.pdb
+C:\Users\usuario\Desktop\ProyectoCiclo3.App\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Dominio.csprojAssemblyReference.cache
+C:\Users\usuario\Desktop\ProyectoCiclo3.App\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\usuario\Desktop\ProyectoCiclo3.App\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Dominio.AssemblyInfo.cs
+C:\Users\usuario\Desktop\ProyectoCiclo3.App\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\ProyectoCiclo3.App\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Dominio.dll
+C:\Users\usuario\Desktop\ProyectoCiclo3.App\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Dominio.pdb
