@@ -28,5 +28,39 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
         public Buses GetWithId(int id){
             return buses.SingleOrDefault(b => b.id == id);
         }
+
+        public Buses Create(Buses newBus)
+        {
+           if(buses.Count > 0){
+           newBus.id=buses.Max(r => r.id) +1; 
+            }else{
+               newBus.id = 1; 
+            }
+               buses.Add(newBus);
+           return newBus;
+        }
+
+
+
+        public Buses Update(Buses newBus){
+            var bus= buses.SingleOrDefault(b => b.id == newBus.id);
+            if(bus != null){
+                bus.marca = newBus.marca;
+                bus.modelo = newBus.modelo;
+                bus.kilometraje = newBus.kilometraje;
+                bus.numero_asientos = newBus.numero_asientos;
+                bus.placa = newBus.placa;
+            }
+        return bus;
+        }
+        
+        public Buses Delete(int id)
+        {
+        var bus= buses.SingleOrDefault(b => b.id == id);
+        buses.Remove(bus);
+        return bus;
+        }
+
+
     }
 }

@@ -23,8 +23,32 @@
             <td>@bus.placa</td>
             <td>
               <a class="btn btn-info" asp-page="./Details"asp-route-busId="@bus.id"><i class="fas fa-adjust"></i>Ver</a>
-              <a class="btn btn-info" asp-page="./Edit"asp-route-busId="@bus.id">Editar</a>
-              <a class="btn btn-danger"href="">Eliminar</a>
+              <a class="btn btn-info" asp-page="./Edit" asp-route-busId="@bus.id">Editar</a>
+              <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal_@bus.id">
+                Eliminar
+              </button>
+              <div class="modal fade" id="exampleModal_@bus.id" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Eliminacion de registro</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Esta seguro que desea eliminar la estacion @bus.marca
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <form method="POST">
+                      <input type="number" class="form-control d-none" id="id" name="id" placeholder="id" asp-for="@bus.id">
+                      <button type="submit"class="btn btn-danger" href="">Eliminar</button>
+                    </form>
+                    </div>
+                </div>
+              </div>
+            </div>
             </td>
         </tr>
     }

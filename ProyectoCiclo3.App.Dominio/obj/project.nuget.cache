@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+8u9DSup0lKyHc6Q+aiqCKbiprAzw9nzG9A+1S3QjoMw2xx4j/xGj0JXb/+knsUZ9OCyXvhe+k2wf6jCz6vhmQ==",
+  "dgSpecHash": "zkdzkL657X6buCFNPov7/hG9xHWngcGUk7Z5SnyrOdl+Gj8N12wwj7t4uQnoP3VPFEITN8RJuCj9LKOtEiMNAg==",
   "success": true,
   "projectFilePath": "C:\\Users\\usuario\\Desktop\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\usuario\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
