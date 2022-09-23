@@ -15,7 +15,7 @@ namespace ProyectoCiclo3.App.Frontend.Pages
               public Buses Bus {get;set;}
 
         [BindProperty]
-        public Buses Buses {get;set;}
+        public Buses Bus {get;set;}
 
  
         public EditBusesModel(RepositorioBuses repositorioBuses)

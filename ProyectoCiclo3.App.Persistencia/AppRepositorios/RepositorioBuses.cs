@@ -40,8 +40,6 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
            return newBus;
         }
 
-
-
         public Buses Update(Buses newBus){
             var bus= buses.SingleOrDefault(b => b.id == newBus.id);
             if(bus != null){
