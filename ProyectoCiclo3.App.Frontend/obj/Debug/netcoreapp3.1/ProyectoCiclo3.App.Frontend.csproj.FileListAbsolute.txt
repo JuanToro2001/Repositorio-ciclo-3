@@ -88,3 +88,5 @@ C:\Users\usuario\Desktop\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debu
 C:\Users\usuario\Desktop\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Buses\Details.cshtml.g.cs
 C:\Users\usuario\Desktop\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Estaciones\Details.cshtml.g.cs
 C:\Users\usuario\Desktop\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Buses\Edit.cshtml.g.cs
+C:\Users\usuario\Desktop\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Rutas\Details.cshtml.g.cs
+C:\Users\usuario\Desktop\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Estaciones\Edit.cshtml.g.cs

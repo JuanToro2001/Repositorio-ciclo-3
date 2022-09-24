@@ -1,0 +1,24 @@
+@page
+@model ProyectoCiclo3.App.Frontend.Pages.EditEstacionesModel
+@{
+    var estacion = Model.Estacion;
+}
+ 
+<div class="text-center">
+<form method="POST">
+  <label for="id" class="form-label">id:</label>
+  <input type="number" class="form-control" id="id" name="id" placeholder="id" asp-for="@estacion.id">
+  <label for="nombre" class="form-label">Nombre:</label>
+  <input type="text" class="form-control" id="nombre" name="Nombre" placeholder="nombre" asp-for="@estacion.nombre">
+  <label for="Direccion" class="form-label">Direccion:</label>
+  <input type="number" class="form-control" id="direccion" name="direccion" placeholder="Direccion" asp-for="@estacion.direccion">
+  <label for="Coord_x" class="form-label">Coord_x:</label>
+  <input type="number" class="form-control" id="Coord_x" name="Coord_x" placeholder="Coord_x" asp-for="@estacion.coord_x">
+  <label for="Coor_y" class="form-label">Coor_y:</label>
+  <input type="number" class="form-control" id="coord_y" name="coord_y" placeholder="Coor_y" asp-for="@estacion.coord_y">
+  <label for="Tipo" class="form-label">Tipo:</label>
+  <input type="text" class="form-control" id="Tipo" name="Tipo" placeholder="Tipo" asp-for="@estacion.tipo">
+  <hr>
+  <button type="submit" class="btn btn-success">Enviar</button>
+</form>
+</div>
